@@ -1,0 +1,57 @@
+/* 1. Fundo suave */
+body {
+    background-color: lch(94.43% 7.68 109.57 / 0.892);
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 2. Título h1 centralizado e cor diferente */
+  h1 {
+    text-align: center;
+    color: #4a148c;
+  }
+  
+  /* 3. Parágrafo maior e justificado */
+  .bio {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  
+  /* 4. Lista com espaçamento maior */
+  .hobbies li {
+    margin-bottom: 5px;
+  }
+  
+  /* 5. Imagem com bordas arredondadas e tamanho adequado */
+  .hobby-img {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 12px;
+  }
+  
+  /* 6. Tabela estilizada */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  table img {
+    width: 100px;
+    border-radius: 8px;
+  }
+  
+  /* 7. Link muda de cor ao passar o mouse */
+  a {
+    color: #1a237e;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #d500f9;
+  }
+  
